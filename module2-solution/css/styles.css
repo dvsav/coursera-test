@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 h1 {
 	text-align: center;
 }
@@ -9,10 +13,17 @@ h1 {
 h2 {
   text-align: center;
   border: 2px solid black;
+  float: right;
+  margin-left: 0;
+  margin-bottom: 10px;
+  margin-top: -2px;
+  margin-right: -2px;
+  width: 120px;
 }
 
 p {
-
+  clear: right;
+  margin: 10px;
 }
 
 .row {
@@ -21,9 +32,21 @@ p {
 
 .menu-item {
 	border: 2px solid black;
-	background-color: gray;
-  padding: 10px;
+	background-color: lightgray;
   margin: 10px;
+}
+
+h2#chicken {
+  background: darksalmon;
+}
+
+h2#beef {
+  background: brown;
+  color: white;
+}
+
+h2#sushi {
+  background: wheat;
 }
 
 /********** Large devices only **********/
